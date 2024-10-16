@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imagem/marvels-spider-man-playstation-4-playstation-5-pc-games-5120x2880-8937.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+img{
+    width: 200px;
+    border-radius: 100%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 15px black, -10px -10px 15px black;
+    
+    
+    
+}
+ main{
+    display: flex; 
+    background-color: rgba(255, 255, 255, 0.329);
+    flex-direction: column;
+    width: 350px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 20px;
+ }
+ h1{
+    font-size: 40px;
+    color: rgb(148, 120, 82);
+    margin: 20px;
+ }
+ p{
+    text-align: center;
+ }
+ a{
+    text-decoration: none;
+    background-color: rgb(117, 98, 72);
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 50px;
+    text-align: center;
+ }
