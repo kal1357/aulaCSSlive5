@@ -4,7 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+   --familiadafontetextos: 'Roboto', sans-serif;
+   --cor1: rgb(148, 120, 82);
+   --cor2: rgb(117, 98, 72);
+   --cor3: rgb(255, 255, 255);
 
+
+}
+   
 body{
     background-image: url(imagem/marvels-spider-man-playstation-4-playstation-5-pc-games-5120x2880-8937.jpg);
     display: flex;
@@ -48,4 +56,11 @@ img{
     width: 100%;
     border-radius: 50px;
     text-align: center;
+    cursor: pointer;
+    transition-duration: 0.04s;
+    box-shadow: 0px 0px 10px 1px  black;
+ }
+ a:hover{
+    background-color: rgb(148, 120, 82);
+    
  }
